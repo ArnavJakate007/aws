@@ -26,7 +26,7 @@ Open `index.html` with the VS Code **Live Server** extension. It needs internet 
 
 | Setting | Value |
 |---|---|
-| Origin | `arnavjakate007.github.io`, origin path `/portfolio`, HTTPS only |
+| Origin | `arnavjakate007.github.io`, origin path `/aws`, HTTPS only |
 | Viewer protocol | Redirect HTTP → HTTPS |
 | Cache policy | `CachingOptimized` (managed) |
 | Response headers | `SecurityHeadersPolicy` (managed): HSTS, X-Frame-Options, nosniff, Referrer-Policy |
