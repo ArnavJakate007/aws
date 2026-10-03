@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arnav Jakate · AI, Web3 & Cloud</title>
+  <meta name="description" content="Arnav Jakate, sophomore at VIT Pune. AI/ML Coordinator at CSI VIT Pune, previously Web3 at GDG on Campus. Building at the edge of AI, Web3 and Cloud.">
+  <meta name="keywords" content="Arnav Jakate, Portfolio, Web3, AI/ML, Cloud, AWS, VIT Pune, CSI, GDG">
+  <meta name="theme-color" content="#07060b">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23a78bfa'/%3E%3Cstop offset='.5' stop-color='%23f472b6'/%3E%3Cstop offset='1' stop-color='%2322d3ee'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='28' fill='%2307060b'/%3E%3Ctext x='50' y='67' font-size='48' font-family='Arial' font-weight='bold' text-anchor='middle' fill='url(%23g)'%3EAJ%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="header" id="header">
+    <nav class="nav">
+      <a href="#home" class="logo" aria-label="Arnav Jakate, home">
+        <span class="logo-name">Arnav Jakate</span>
+      </a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#stack" class="nav-link">Stack</a></li>
+        <li><a href="#projects" class="nav-link">Work</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <canvas id="hero-gl" class="hero-gl" aria-hidden="true"></canvas>
+      <div class="hero-fade" aria-hidden="true"></div>
+
+      <div class="container hero-inner">
+
+        <h1 class="hero-title">
+          <span class="line"><span class="split" data-split>Arnav Jakate</span></span>
+        </h1>
+
+        <p class="hero-tagline" data-hero>
+          Building at the <em>edge</em> of AI, Web3 <span class="amp">&amp;</span> Cloud.
+        </p>
+
+        <p class="hero-sub" data-hero>
+          Sophomore at VIT Pune. I lead AI/ML at CSI, previously built on-chain with GDG Web3,
+          and I ship everything I build to the cloud.
+        </p>
+
+        <div class="hero-actions" data-hero>
+          <a href="#projects" class="btn btn-light">
+            View my work <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-outline">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="hero-bottom container" data-hero>
+        <span class="hb-label">Building with</span>
+        <div class="hb-logos">
+          <span><i class="fa-solid fa-users"></i> CSI VIT Pune</span>
+          <span><i class="fa-brands fa-google"></i> GDG on Campus</span>
+          <span><i class="fa-solid fa-cubes"></i> Algorand</span>
+          <span><i class="fa-brands fa-aws"></i> AWS</span>
+          <span><i class="fa-brands fa-python"></i> Python</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+      <div class="container">
+        <span class="eyebrow" data-up>About</span>
+        <p class="statement" data-words>
+          I'm a second-year engineering student at Vishwakarma Institute of Technology, Pune, working where
+          intelligent systems meet decentralized ones. I coordinate AI/ML at CSI, I cut my teeth on smart
+          contracts with GDG Web3, and I believe the best way to learn something is to build it and ship it.
+        </p>
+
+        <div class="stats">
+          <div class="stat" data-up>
+            <span class="stat-num"><span data-count="2">2</span></span>
+            <span class="stat-label">Tech communities</span>
+          </div>
+          <div class="stat" data-up>
+            <span class="stat-num"><span data-count="6">6</span></span>
+            <span class="stat-label">Projects shipped</span>
+          </div>
+          <div class="stat" data-up>
+            <span class="stat-num">SY</span>
+            <span class="stat-label">B.Tech, VIT Pune</span>
+          </div>
+          <div class="stat" data-up>
+            <span class="stat-num">∞</span>
+            <span class="stat-label">Things left to build</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="container exp-grid">
+        <div class="exp-head">
+          <span class="eyebrow" data-up>Experience</span>
+          <h2 class="section-title" data-up>Where I've been <em>building</em></h2>
+          <p class="section-sub" data-up>Communities where I learn, lead and ship with others.</p>
+        </div>
+
+        <div class="exp-list">
+          <div class="exp-rail" aria-hidden="true"><div class="exp-rail-fill" id="rail-fill"></div></div>
+
+          <article class="exp-card is-current" data-up>
+            <div class="exp-dot now"></div>
+            <div class="exp-meta">
+              <span class="current-label">
+                <span class="live-dot"></span>
+                <span class="current-text">Currently here</span>
+              </span>
+              <span class="exp-org"><i class="fa-solid fa-users"></i> CSI VIT Pune</span>
+            </div>
+            <h3>AI/ML Coordinator</h3>
+            <p class="exp-org-full">Computer Society of India · VIT Pune Student Chapter</p>
+            <ul>
+              <li>Coordinate the AI/ML domain: plan workshops, hands-on sessions and project tracks.</li>
+              <li>Mentor juniors getting started with Python, data and ML fundamentals.</li>
+              <li>Work with other domain coordinators to run chapter events and technical activities.</li>
+            </ul>
+            <div class="tags"><span>Machine Learning</span><span>Python</span><span>Leadership</span><span>Events</span></div>
+          </article>
+
+          <article class="exp-card" data-up>
+            <div class="exp-dot"></div>
+            <div class="exp-meta">
+              <span class="exp-badge">Previously</span>
+              <span class="exp-org"><i class="fa-brands fa-google"></i> GDG on Campus</span>
+            </div>
+            <h3>Web3 Team Member</h3>
+            <p class="exp-org-full">Google Developer Groups on Campus · VIT Pune</p>
+            <ul>
+              <li>Explored blockchain fundamentals, smart contracts and dApp architecture.</li>
+              <li>Contributed to Web3 sessions introducing students to the Ethereum ecosystem.</li>
+              <li>Collaborated with the GDG community on technical events and initiatives.</li>
+            </ul>
+            <div class="tags"><span>Blockchain</span><span>Solidity</span><span>Ethereum</span><span>Community</span></div>
+          </article>
+
+          <article class="exp-card" data-up>
+            <div class="exp-dot"></div>
+            <div class="exp-meta">
+              <span class="exp-badge">Education</span>
+              <span class="exp-org"><i class="fa-solid fa-building-columns"></i> VIT Pune</span>
+            </div>
+            <h3>B.Tech, Second Year</h3>
+            <p class="exp-org-full">Vishwakarma Institute of Technology, Pune</p>
+            <ul>
+              <li>Building strong foundations in computer science, programming and systems.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STACK (bento) ============ -->
+    <section class="section" id="stack">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" data-up>Stack</span>
+          <h2 class="section-title" data-up>Tools of the <em>trade</em></h2>
+        </div>
+
+        <div class="bento">
+          <!-- AI -->
+          <div class="card b-ai" data-up>
+            <div class="card-glow"></div>
+            <div class="card-top">
+              <span class="card-icon"><i class="fa-solid fa-brain"></i></span>
+              <span class="card-kicker">01 / AI & ML</span>
+            </div>
+            <h3>Machine learning, end to end</h3>
+            <p>Computer vision, NLP, time-series forecasting and RL. I've built models for skin analysis, satellite imagery and EV grids, and I teach ML to the CSI community.</p>
+            <div class="neural" aria-hidden="true">
+              <svg viewBox="0 0 300 120" preserveAspectRatio="xMidYMid meet">
+                <g class="nn-lines">
+                  <path d="M30 20 L150 30 M30 20 L150 60 M30 20 L150 90 M30 60 L150 30 M30 60 L150 60 M30 60 L150 90 M30 100 L150 30 M30 100 L150 60 M30 100 L150 90 M150 30 L270 45 M150 60 L270 45 M150 90 L270 45 M150 30 L270 85 M150 60 L270 85 M150 90 L270 85"/>
+                </g>
+                <g class="nn-pulse">
+                  <path d="M30 20 L150 60 L270 45"/>
+                  <path d="M30 100 L150 30 L270 85"/>
+                </g>
+                <g class="nn-nodes">
+                  <circle cx="30" cy="20" r="6"/><circle cx="30" cy="60" r="6"/><circle cx="30" cy="100" r="6"/>
+                  <circle cx="150" cy="30" r="6"/><circle cx="150" cy="60" r="6"/><circle cx="150" cy="90" r="6"/>
+                  <circle cx="270" cy="45" r="6"/><circle cx="270" cy="85" r="6"/>
+                </g>
+              </svg>
+            </div>
+            <div class="tags"><span>Python</span><span>PyTorch</span><span>YOLOv8</span><span>OpenCV</span><span>MediaPipe</span><span>spaCy</span><span>ONNX</span><span>LSTM / RL</span></div>
+          </div>
+
+          <!-- Web3 -->
+          <div class="card b-web3" data-up>
+            <div class="card-glow"></div>
+            <div class="card-top">
+              <span class="card-icon"><i class="fa-solid fa-cubes"></i></span>
+              <span class="card-kicker">02 / Web3</span>
+            </div>
+            <h3>On-chain apps</h3>
+            <pre class="code"><code><span class="k">class</span> <span class="t">DeckPay</span>(<span class="t">ARC4Contract</span>):
+    <span class="f">@abimethod</span>
+    <span class="k">def</span> <span class="f">split</span>(self, pay: <span class="t">PaymentTxn</span>) -&gt; <span class="t">None</span>:
+        <span class="c"># atomic multi-party settle</span>
+        ...
+
+<span class="c"># idea → on-chain</span></code></pre>
+            <div class="tags"><span>Algorand</span><span>AlgoKit</span><span>ARC-3 NFTs</span><span>Solidity</span><span>Ethereum</span></div>
+          </div>
+
+          <!-- Cloud -->
+          <div class="card b-cloud" data-up>
+            <div class="card-glow"></div>
+            <div class="card-top">
+              <span class="card-icon"><i class="fa-solid fa-cloud"></i></span>
+              <span class="card-kicker">03 / Cloud</span>
+            </div>
+            <h3>Deploy, automate, scale</h3>
+            <div class="orbit-wrap" aria-hidden="true">
+              <div class="orbit-core"><i class="fa-solid fa-cloud"></i></div>
+              <div class="orbit-ring">
+                <span style="--i:0"><i class="fa-brands fa-aws"></i></span>
+                <span style="--i:1"><i class="fa-solid fa-globe"></i></span>
+                <span style="--i:2"><i class="fa-brands fa-docker"></i></span>
+                <span style="--i:3"><i class="fa-brands fa-linux"></i></span>
+                <span style="--i:4"><i class="fa-brands fa-github"></i></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Web -->
+          <div class="card b-web" data-up>
+            <div class="card-glow"></div>
+            <div class="card-top">
+              <span class="card-icon"><i class="fa-solid fa-code"></i></span>
+              <span class="card-kicker">04 / Web</span>
+            </div>
+            <h3>Interfaces & APIs</h3>
+            <p>Front-ends, APIs and backends that tie the models and chains together.</p>
+            <div class="tags"><span>TypeScript</span><span>Next.js</span><span>React</span><span>FastAPI</span><span>Go</span><span>Node.js</span><span>Git</span><span>C / C++</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head row">
+          <div>
+            <span class="eyebrow" data-up>Selected work</span>
+            <h2 class="section-title" data-up>Things I've <em>shipped</em></h2>
+          </div>
+          <div class="filter" role="group" aria-label="Filter projects" data-up>
+            <span class="filter-pill" id="filter-pill" aria-hidden="true"></span>
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="ai">AI</button>
+            <button class="filter-btn" data-filter="web3">Web3</button>
+            <button class="filter-btn" data-filter="cloud">Cloud</button>
+          </div>
+        </div>
+
+        <!-- Projects from github.com/ArnavJakate007. data-tags = space-separated filters -->
+        <div class="projects">
+          <article class="project" data-tags="web3" data-up>
+            <div class="project-art art-web3">
+              <i class="fa-solid fa-wallet"></i>
+              <span class="project-num">01</span>
+              <span class="project-badge">Algorand India Hackathon 2026</span>
+            </div>
+            <div class="project-info">
+              <div class="project-row">
+                <h3>DeckPay</h3>
+                <div class="project-links">
+                  <a href="https://github.com/ArnavJakate007/deckPay" target="_blank" rel="noopener" aria-label="DeckPay source code"><i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+              <p>A blockchain finance platform for students on Algorand. It offers instant low-fee payments, bill splitting with atomic transfers, NFT event tickets that stop scalping, and transparent escrow fundraising.</p>
+              <div class="tags"><span>Algorand</span><span>AlgoKit</span><span>TypeScript</span><span>Python</span><span>NFTs</span></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="ai" data-up>
+            <div class="project-art art-ai">
+              <i class="fa-solid fa-face-smile"></i>
+              <span class="project-num">02</span>
+            </div>
+            <div class="project-info">
+              <div class="project-row">
+                <h3>SkinSight AI</h3>
+                <div class="project-links">
+                  <a href="https://github.com/ArnavJakate007/SkinSight" target="_blank" rel="noopener" aria-label="SkinSight source code"><i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+              <p>A computer-vision web app that analyses facial skin from a photo. It grades acne severity, detects lesions, segments the forehead, cheeks and jawline, and tracks progress over time.</p>
+              <div class="tags"><span>YOLOv8</span><span>MediaPipe</span><span>OpenCV</span><span>FastAPI</span><span>React</span></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="ai cloud" data-up>
+            <div class="project-art art-ev">
+              <i class="fa-solid fa-charging-station"></i>
+              <span class="project-num">03</span>
+            </div>
+            <div class="project-info">
+              <div class="project-row">
+                <h3>GridEV</h3>
+                <div class="project-links">
+                  <a href="https://github.com/ArnavJakate007/gridEV" target="_blank" rel="noopener" aria-label="GridEV source code"><i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+              <p>Intelligent EV-charging infrastructure planning for Indian cities. It uses LSTM demand forecasting, RL-based load balancing and ML site scoring on a hex grid, and is containerised for production.</p>
+              <div class="tags"><span>LSTM</span><span>RL</span><span>Next.js</span><span>Go</span><span>Docker</span></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="ai cloud" data-up>
+            <div class="project-art art-mix">
+              <i class="fa-solid fa-route"></i>
+              <span class="project-num">04</span>
+            </div>
+            <div class="project-info">
+              <div class="project-row">
+                <h3>Nexus</h3>
+                <div class="project-links">
+                  <a href="https://github.com/ArnavJakate007/Nexus" target="_blank" rel="noopener" aria-label="Nexus source code"><i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+              <p>An ML-first skill-gap and learning-path engine. A five-layer pipeline uses spaCy NER, ONNX embeddings, an O*NET graph with Dijkstra and an optional local LLM. It's fully containerised with Docker and nginx.</p>
+              <div class="tags"><span>spaCy</span><span>ONNX</span><span>Python</span><span>Docker</span><span>nginx</span></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="ai" data-up>
+            <div class="project-art art-sat">
+              <i class="fa-solid fa-satellite"></i>
+              <span class="project-num">05</span>
+            </div>
+            <div class="project-info">
+              <div class="project-row">
+                <h3>sattsr</h3>
+                <div class="project-links">
+                  <a href="https://github.com/ArnavJakate007/EDI_SEM3" target="_blank" rel="noopener" aria-label="sattsr source code"><i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+              <p>Temporal super-resolution for geostationary thermal imagery. A learned optical-flow interpolation model raises cadence from 30 to 15 and 7.5 minutes, and it's applied to ISRO's INSAT-3DR/3DS satellites.</p>
+              <div class="tags"><span>PyTorch</span><span>Computer Vision</span><span>NetCDF</span><span>Python</span></div>
+            </div>
+          </article>
+
+          <article class="project" data-tags="cloud" data-up>
+            <div class="project-art art-cloud">
+              <i class="fa-brands fa-aws"></i>
+              <span class="project-num">06</span>
+            </div>
+            <div class="project-info">
+              <div class="project-row">
+                <h3>Cloud-Native Portfolio</h3>
+                <div class="project-links">
+                  <a href="https://github.com/ArnavJakate007" target="_blank" rel="noopener" aria-label="GitHub profile"><i class="fa-brands fa-github"></i></a>
+                  <a href="#home" aria-label="Live site"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+              <p>This site. AWS CloudFront serves it over HTTPS from edge locations worldwide, with GitHub Pages as the origin. A GitHub Actions pipeline invalidates the CDN cache on every push to <code>main</code>.</p>
+              <div class="tags"><span>AWS CloudFront</span><span>GitHub Pages</span><span>GitHub Actions</span><span>WebGL</span></div>
+            </div>
+          </article>
+        </div>
+
+        <div class="projects-more" data-up>
+          <a href="https://github.com/ArnavJakate007" target="_blank" rel="noopener" class="btn btn-outline">
+            <i class="fa-brands fa-github"></i> More on GitHub <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CLOUD PIPELINE ============ -->
+    <section class="section" id="cloud">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" data-up>Infrastructure</span>
+          <h2 class="section-title" data-up>How this site <em>ships</em></h2>
+          <p class="section-sub" data-up>Delivered by AWS CloudFront. GitHub Pages is the origin, and the CDN caches the site at edge locations worldwide over HTTPS.</p>
+        </div>
+
+        <div class="pipeline" data-up>
+          <div class="pipe-track" aria-hidden="true"><span class="pipe-beam"></span></div>
+          <div class="pipe-step">
+            <span class="pipe-icon"><i class="fa-brands fa-github"></i></span>
+            <h4>Push</h4>
+            <p><code>git push</code> to main</p>
+          </div>
+          <div class="pipe-step">
+            <span class="pipe-icon"><i class="fa-solid fa-server"></i></span>
+            <h4>Origin</h4>
+            <p>GitHub Pages hosts the files</p>
+          </div>
+          <div class="pipe-step">
+            <span class="pipe-icon"><i class="fa-solid fa-gears"></i></span>
+            <h4>CI / CD</h4>
+            <p>GitHub Actions invalidates the cache</p>
+          </div>
+          <div class="pipe-step">
+            <span class="pipe-icon"><i class="fa-brands fa-aws"></i></span>
+            <h4>CloudFront</h4>
+            <p>Served worldwide over HTTPS</p>
+          </div>
+        </div>
+
+        <div class="infra-tags" data-up>
+          <span><i class="fa-solid fa-lock"></i> HTTPS via CloudFront</span>
+          <span><i class="fa-solid fa-earth-asia"></i> Global edge caching</span>
+          <span><i class="fa-solid fa-shield-halved"></i> Security headers policy</span>
+          <span><i class="fa-solid fa-bolt"></i> Brotli / Gzip compression</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact-box" data-up>
+          <div class="contact-border" aria-hidden="true"></div>
+          <div class="contact-inner">
+            <span class="eyebrow">Contact</span>
+            <h2 class="contact-title">Let's build<br><em>something.</em></h2>
+            <p class="section-sub">A hackathon idea, a project, or an opportunity? I'd love to hear about it.</p>
+
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-row">
+                <input type="text" id="c-name" class="field" placeholder="Your name" aria-label="Your name" required>
+                <input type="text" id="c-subject" class="field" placeholder="Subject" aria-label="Subject" required>
+              </div>
+              <textarea id="c-message" class="field" rows="4" placeholder="Your message..." aria-label="Message" required></textarea>
+              <p class="form-error" id="form-error" role="alert"></p>
+              <button type="submit" class="btn btn-light btn-block">
+                Send message <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </form>
+
+            <div class="socials">
+              <!-- EDIT: your real email / profile links (also CONTACT_EMAIL in app.js) -->
+              <a href="mailto:you@example.com"><i class="fa-solid fa-envelope"></i> Email</a>
+              <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+              <a href="https://github.com/ArnavJakate007" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-big" aria-hidden="true">ARNAV JAKATE</div>
+      <div class="footer-row">
+        <p>&copy; <span id="year">2026</span> Arnav Jakate</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
